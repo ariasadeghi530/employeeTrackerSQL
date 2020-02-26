@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/ariasadeghi530/employeeTrackerSQL/issues"
   },
-  "homepage": "https://github.com/ariasadeghi530/employeeTrackerSQL#readme"
+  "homepage": "https://github.com/ariasadeghi530/employeeTrackerSQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.0.4",
+    "mysql2": "^2.1.0"
+  }
 }
