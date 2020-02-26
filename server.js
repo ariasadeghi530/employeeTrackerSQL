@@ -15,10 +15,12 @@ const initChoices = [
   "Add department",
   "Remove department",
   "View all departments",
-  "View total utilized budget of a department"
+  "View total utilized budget of a department",
+  "Exit"
 ];
 
 
+function init () {
 prompt([
   {
     type: 'list',
@@ -29,3 +31,6 @@ prompt([
 ]).then(response => {
   console.log(response);
 }).catch(e => console.log(e))
+}
+
+init();
