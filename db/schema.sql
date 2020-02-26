@@ -1,4 +1,4 @@
-DELETE DATABASE company_db IF EXISTS;
+DROP DATABASE IF EXISTS company_db;
 
 CREATE DATABASE company_db;
 
@@ -6,7 +6,7 @@ USE company_db;
 
 CREATE TABLE department (
 id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
-name VARCHAR(30) NOT NULL,
+name VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE role (
