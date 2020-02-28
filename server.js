@@ -197,6 +197,7 @@ function init() {
         break;
 
       default:
+        process.exit();
         break;
     }
 
