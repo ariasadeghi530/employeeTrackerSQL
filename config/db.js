@@ -5,7 +5,7 @@ const connection = createConnection({
   port: 3306,
   user: 'root',
   password: 'spikey11',
-  database: 'company_db'
+  database: 'employees_db'
 });
 
 module.exports = connection;
