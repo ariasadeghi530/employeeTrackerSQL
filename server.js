@@ -100,7 +100,7 @@ function addRole() {
     {
       type: 'input',
       name: 'newSalary',
-      message: 'How much is the salary for this role?'
+      message: 'What is the salary for this role?'
     }
   ])
     .then(({ newRole, newSalary, newRoleId }) => {
